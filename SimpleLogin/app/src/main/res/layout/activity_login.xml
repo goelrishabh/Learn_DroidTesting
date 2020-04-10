@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/am_username_tipl"
+        android:id="@+id/al_usernale_tipl"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,13 +17,13 @@
         app:errorEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/am_username_tipet"
+            android:id="@+id/al_usernale_tipet"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:drawableStart="@drawable/ic_person_black_24dp"
             android:drawablePadding="8dp"
             android:fontFamily="@font/montserrat"
-            android:hint="Username"
+            android:hint="Usernale"
             android:inputType="textEmailAddress">
 
             <requestFocus />
@@ -31,7 +31,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/am_password_tipl"
+        android:id="@+id/al_password_tipl"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,9 +42,9 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/am_password_tipet"
+            android:id="@+id/al_password_tipet"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:drawableStart="@drawable/ic_lock_black_24dp"
             android:drawableLeft="@drawable/ic_lock_black_24dp"
             android:drawablePadding="8dp"
@@ -54,7 +54,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/am_sign_in_mtrBtn"
+        android:id="@+id/al_sign_in_mtrBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
