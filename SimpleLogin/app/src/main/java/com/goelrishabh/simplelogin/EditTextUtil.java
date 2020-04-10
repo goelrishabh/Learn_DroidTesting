@@ -2,8 +2,6 @@ package com.goelrishabh.simplelogin;
 
 import android.widget.EditText;
 
-import com.google.android.material.textfield.TextInputEditText;
-
 public final class EditTextUtil {
 
     public static String getValue(EditText editText) {
